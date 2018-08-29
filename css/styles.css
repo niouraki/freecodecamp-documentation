@@ -1,0 +1,96 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*Styling for the nav element*/
+header {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav li {
+  list-style: none;
+  border-bottom: 1px solid black;
+  position: relative;
+  left: -30px;
+  width: 100%;
+  padding: 12px 12px 10px 10px;
+}
+.nav-elements {
+  border: 2px solid black;
+  text-align: left;
+  font-size: 15px;
+  height: 200px;
+  overflow: scroll;
+}
+/*End of styling for the nav element*/
+
+/*Start of styling for main content of the page*/
+p, h3 {
+  text-align: left;
+  margin: 15px;
+}
+.titles {
+  font-size: 22px;
+  font-weight: bold;
+}
+pre{
+  text-align: left;
+  display: block;
+  margin: 15px;
+  background-color: #f7f7f7;
+  padding: 15px;
+  overflow-x: auto;
+}
+code {
+  background-color: #f7f7f7;
+  padding: 2px;
+}
+.incorrect {
+  background-color: #ffe9ec;
+}
+span {
+  background-color: #d2f8d2;
+}
+/*End of styling for main content of the page*/
+
+/*Media queries*/
+@media screen and (min-width: 850px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  #navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 300px;
+    padding: 20px;
+  }
+  #main-doc {
+    position: relative;
+    margin-left: 310px;
+    padding: 20px;
+  }
+  .nav-elements {
+    height: 90%;
+    overflow-y:auto;
+    overflow-x:hidden;
+  }
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  .nav-elements {
+    font-size: 18px;
+  }
+}
