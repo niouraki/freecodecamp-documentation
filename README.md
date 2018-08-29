@@ -2,6 +2,8 @@
 
 This is a documentation page for the Freecodecamp front-end certification. The content is from https://developer.mozilla.org/en-US/
 
+Live page at: https://niouraki.github.io/freecodecamp-documentation/
+
 ## User stories I had to passively
 
 - User Story #1: I can see a main element with a corresponding id="main-doc", which contains the page's main content (technical documentation).
